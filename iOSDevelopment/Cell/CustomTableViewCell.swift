@@ -16,7 +16,7 @@ class CustomTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super .awakeFromNib()
         
-        self.titleLabel.text = ""
+        self.titleLabel.text = " "
         self.descLable.text = ""
     }
     
